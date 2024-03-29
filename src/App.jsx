@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <h1>Dynamic Component</h1>
+      {/* Fetch all Dynamic components */}
       <DynamicComponents />
     </>
   );
