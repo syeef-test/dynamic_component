@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 import "./App.css";
+import DynamicComponents from "./components/DynamicComponents";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1>Dynamic Component</h1>
+      <DynamicComponents />
     </>
   );
 }
